@@ -7,13 +7,13 @@ if __name__ == "__main__":
     if len(pw) < 8:
         ans = False
     print(ans)
-    if ans == True:
-        for chrs in chrList:
-            temp = False
-            for ch in pw:
-                temp = True
-                break
-            if temp == False:
-                ans = False
-                break
+    # if ans == True:
+    #     for chrs in chrList:
+    #         temp = False
+    #         for ch in pw:
+    #             temp = True
+    #             break
+    #         if temp == False:
+    #             ans = False
+    #             break
     print(ans)

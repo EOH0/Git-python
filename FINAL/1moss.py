@@ -11,10 +11,11 @@ morse = {
 msg =  ['..', '.-..', '---', '...-', '.', '.--.', '-.--', '-', '....', '---', '-.']
 for val in msg:
     print(morse[val], end=" ")
+
 morse_r = dict()
 for key in morse:
-    print(key, morse[key])
     morse_r[morse[key]] = key
+    
 # print(morse_r)
 for ch in "ilovepython":
     print(ch, morse_r[ch], end=" / ")
